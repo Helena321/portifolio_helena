@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&display=swap');
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Castoro Titling', cursive;
+}
+#Menu ul{
+    list-style: none;
+    padding: 0;
+    background-color: rgb(247, 229, 234);
+    text-align: center;
+}
+#Menu ul li{
+    display: inline-block;
+}
+#Menu ul li a{
+    color: rgb(24, 11, 46);
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 110px;
+    margin-right: 110px;
+}
+#Menu ul li a:hover {
+    color: rgb(67, 67, 182);
+}
+#linha-horizontal {
+    width: 100%;
+    border: 1px solid #000;
+}
+h1{
+    font-size: 30px;
+    color: black;
+    text-align: center;
+}
+h2{
+    text-align: center; 
+    font-size: 10px;
+    color: black;
+    text-align: center; 
+}
+p{
+    font-size: 15px;
+    color: black;
+    text-align: center;
+}
+h3{
+    font-size: 15px;
+    color: black;
+}
+h4{
+    margin-left: 10px; 
+    font-size: 15px;
+    color: black;
+}
+h5{
+    margin-left: 40%; 
+    margin-right: 40%; 
+}
+h6 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .item {
+    width: 20%;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .item img {
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+  }
+  
+  figcaption {
+    margin-top: 10px; 
+  }
+  
+  @media (max-width: 768px) {
+    .item {
+      width: 100%; 
+    }
+  }
+  .portfolio-img {
+    display: block;
+    margin: 0 auto;
+    max-width: 300px;
+    height: auto;
+    margin-bottom: 20px;
+}
+#rodape {
+    background-color: #f5f5f5;
+    padding: 20px;
+    text-align: center;
+}
